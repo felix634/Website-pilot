@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Website</title>
+    <!-- Link to Tailwind CSS CDN for easy styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Link to your custom stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Apply Inter font globally -->
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 min-h-screen flex flex-col justify-between">
+
+    <!-- Header Section -->
+    <header class="bg-blue-600 text-white p-4 shadow-md rounded-b-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold rounded-md">My Website</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="hover:underline rounded-md px-2 py-1">Home</a></li>
+                    <li><a href="#" class="hover:underline rounded-md px-2 py-1">About</a></li>
+                    <li><a href="#" class="hover:underline rounded-md px-2 py-1">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="container mx-auto my-8 p-6 bg-white rounded-lg shadow-lg flex-grow">
+        <h2 class="text-4xl font-extrabold text-gray-800 mb-4 rounded-md">Welcome to Our Site!</h2>
+        <p class="text-gray-700 leading-relaxed rounded-md">
+            This is a basic example of a simple website structure. It includes a header for navigation, a main content area to display information, and a footer for copyright or contact details. We've used Tailwind CSS for a clean and responsive design, ensuring it looks good on various devices.
+        </p>
+        <p class="text-gray-700 leading-relaxed mt-4 rounded-md">
+            Feel free to modify this structure and content to fit your specific needs. The linked `style.css` and `script.js` files are placeholders for your custom styles and interactive functionalities.
+        </p>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white p-4 text-center shadow-inner rounded-t-lg">
+        <div class="container mx-auto">
+            <p class="text-sm rounded-md">&copy; 2025 My Simple Website. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Link to your custom JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
