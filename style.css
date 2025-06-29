@@ -80,7 +80,7 @@ main h2 {
 }
 
 main p {
-    color: #4b5563; /* Gray-700 from Tailwind */
+    color: #0b1051; /* Gray-700 from Tailwind */
     font-size: 1.125rem; /* Slightly larger text for readability */
     margin-bottom: 1rem; /* Space between paragraphs */
 }
