@@ -61,7 +61,7 @@ header nav ul li a:hover {
 
 /* Main content styling */
 main {
-    background-color: #ffffff; /* White background */
+    background-color: #070f69; /* White background */
     padding: 2rem; /* Ample padding inside the main content box */
     margin: 2rem auto; /* Top/bottom margin and auto horizontal margin for centering */
     max-width: 900px; /* Max width to prevent content from stretching too wide */
@@ -75,7 +75,7 @@ main {
 main h2 {
     font-size: 2.5rem; /* text-4xl from Tailwind */
     font-weight: 800; /* font-extrabold from Tailwind */
-    color: #1f2937; /* Gray-800 from Tailwind */
+    color: #ffffff; /* Gray-800 from Tailwind */
     margin-bottom: 1rem; /* Space below the heading */
 }
 
